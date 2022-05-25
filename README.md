@@ -8,14 +8,14 @@ $$ {{x}\over{a}}^2  + {{y}\over{b}}^2 \ = \ 1  $$
 
 has a circumferential length given by:
 
-$$ L = a \int_0^{2\pi} {{\sqrt{1-k^2 \text{sin}^2\phi} } \ {d\phi} \quad  k^2 = {{a^2-b^2}\over{a^2}}  \qaud b^2<a^2  $$
+$$ L = a \int_0^{2\pi} {{\sqrt{1-k^2 \text{sin}^2\phi} } \ {d\phi}   $$
 
 which is an incomplete elliptical integral of the second kind (see later definition).
 
 Another example is that of the pendulum equation, which 
 for large osciallation angles $\theta$ is a differential equation given by:
 
-$$ \ddot{\theta} + {{g}\over{L}}  \text{sin} (\theta) = 0 $$
+$$ \ddot{\theta} + {{g}\over{L}}  \text{sin} (\theta) \ = \ 0 $$
 
 The solution to this equation can be written in terms of one of Jacobi's elliptic functions (for details of the mathematics see [Mathematics of the Pendulum](http://jgxsoft.com/examples/pendulum.html)). The period of oscillation can be expressed in terms of the complete elliptic integral of the first kind.
 
