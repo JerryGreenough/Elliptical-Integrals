@@ -12,7 +12,7 @@ $$ L \ = \  a \int_0^{2\pi} {{\sqrt{1-k^2 \text{sin}^2\phi} } }  \ {d\phi}  \qua
 
 which is an incomplete elliptical integral of the second kind (see later definition).
 
-Another example is that of the pendulum equation, which 
+Another example is provided by the pendulum equation, which 
 for large osciallation angles $\theta$ is a differential equation given by:
 
 $$ \ddot{\theta} + {{g}\over{L}}  \text{sin} (\theta) \ = \ 0 $$
