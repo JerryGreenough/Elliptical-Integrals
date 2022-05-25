@@ -1,5 +1,22 @@
 # Elliptic Integrals
 
+## Elliptic Integral of the First Kind
+
+The incomplete elliptic integral of the first kind is defined:
+
+$ F(k,x) = \int_0^x {{d\phi}\over{\sqrt{1-k^2 \text{sin}^2\phi}}} $$ 
+
+The complete elliptic integral of the first kind is defined:
+
+$ F(k) = \int_0^{{\pi}\over{2}} {{d\phi}\over{\sqrt{1-k^2 \text{sin}^2\phi}}} $$ 
+
+## Elliptic Integral of the Second Kind
+
+The incomplete elliptic integral of the second kind is defined:
+
+The complete elliptic integral of the seecond kind is defined:
+
+
 ## Jacobi's Elliptic Functions
 
 
@@ -25,7 +42,7 @@ Note that the amplitude function is equivalent to the inverse of the incomplete 
 <br>
 The elliptic functions are easily incorporated into a Python script with the help of the ```scipy``` library - for details see
 [scipy/special/ellipj](https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.ellipj.html). The ```ellipj``` function returns a
-list of four values, each corresponding to one of the elliptical functions introduced above. As was the case with the elliptic integrals, 
+list of four values, each corresponding to one of the elliptic functions introduced above. As was the case with the elliptic integrals, 
 it should be noted that ```m``` parameter used by
 the ```ellipj``` function is equal to the square of the $k$ parameter used in the mathematical literature.
 
