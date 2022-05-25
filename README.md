@@ -21,6 +21,8 @@ $$ \text{cn} (x, k) = \sqrt{   1 - \text{sn}^2(x, k)} = \text{cos}[\ \text{am}(x
 
 $$ \text{dn} (x, k) = \sqrt{1 - k^2 \ \text{sn}^2(x, k)}   $$
 
+Note that the amplitude function is equivalent to the inverse of the incomplete elliptical integral of the first kind.
+<br>
 The elliptical functions are easily incorporated into a Python script with the help of the ```scipy``` library - for details see
 [scipy/special/ellipj](https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.ellipj.html). The ```ellipj``` function returns a
 list of four values, each corresponding to one of the elliptical functions introduced above. As was the case with the elliptical integrals, 
