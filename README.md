@@ -8,7 +8,7 @@ $$ {{x}\over{a}}^2  + {{y}\over{b}}^2 \ = \ 1  $$
 
 has a circumferential length given by:
 
-$$ L = a\int_0^2\pi {{\sqrt{1-k^2 \text{sin}^2\phi} } \ {d\phi}  k^2 = {{a^2-b^2}\over{a^2}}   b^2<a^2  $$
+$$ L = a \int_0^{2\pi} {{\sqrt{1-k^2 \text{sin}^2\phi} } \ {d\phi} \quad  k^2 = {{a^2-b^2}\over{a^2}}  \qaud b^2<a^2  $$
 
 which is an incomplete elliptical integral of the second kind (see later definition).
 
