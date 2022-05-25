@@ -49,7 +49,19 @@ $$ E(k) = \int_0^{{\pi}\over{2}} {{\sqrt{1-k^2 \text{sin}^2\phi}} \ {d\phi}} $$
 The elliptic integrals of both the first kind and second kind can be incorporated into a Python script with the help of the ```scipy``` library - for details of the implementation for the elliptic integral of the first kind see
 [scipy/special/ellipk](https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.ellipk.html) and for details of the elliptic integral of the second kind see
 [scipy/special/ellipe](https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.ellipe.html). Note that the ```m``` parameter used by
-the ```ellipk``` and ```ellipe``` functions is equal to the square of the $k$ parameter that is used in the mathematical literature. Here is an example:
+the ```ellipk``` and ```ellipe``` functions is equal to the square of the $k$ parameter that is used in the mathematical literature. <br>
+
+Here is an example:- given an angle $\theta$ and a parameter $k = 0.5$ calculate $\alpha$ (which is defined in terms of the elliptic integrals of the first kind):
+$$ \alpha = F(k) - F(k,\theta) $$
+and $\delta$ (which is defined in terms of the elliptic integrals of the second kind)
+$$ \delta = 1 - {{2}\over{\alpha}}(E(k) - E(k,\theta)) $$
+
+```
+from scipy.special import ellipk as F         # complete elliptical integral of the first kind
+from scipy.special import ellipkinc as Finc   # incomplete elliptical integral of the first kind
+from scipy.special import ellipe as E         # complete elliptical integral of the second kind
+from scipy.special import ellipeinc as Einc   # incomplete elliptical integral of the second kind
+```
 
 
 
