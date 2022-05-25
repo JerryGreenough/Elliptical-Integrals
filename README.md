@@ -21,7 +21,11 @@ $$ \text{cn} (x, k) = \sqrt{   1 - \text{sn}^2(x, k)} = \text{cos}[\ \text{am}(x
 
 $$ \text{dn} (x, k) = \sqrt{1 - k^2 \ \text{sn}^2(x, k)}   $$
 
-The elliptical functions are easily incorporated into a Python script with the help of the ```scipy``` library.
+The elliptical functions are easily incorporated into a Python script with the help of the ```scipy``` library - for details see
+[scipy/special/ellipj](https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.ellipj.html). The ```ellipj``` function returns a
+list of four values, each corresponding to one of the elliptical functions introduced above. As was the case with the elliptical integrals, 
+it should be noted that ```m``` parameter used by
+the ```ellipj``` function is equal to the square of the $k$ parameter used in the mathematical literature.
 
 ```
 from scipy.special import ellipj as elliptical_fns
@@ -35,5 +39,5 @@ sncndn = elliptical_fns(x, m)
 snxk = sncndn[0]  # sn(x, k)
 cnxk = sncndn[1]  # cn(x, k)
 dnxk = sncndn[2]  # dn(x, k)
-amxk = sncndn[2]  # am(x, k)
+amxk = sncndn[3]  # am(x, k)
 ```
