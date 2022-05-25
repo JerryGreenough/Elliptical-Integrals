@@ -1,5 +1,16 @@
 # Elliptic Integrals
 
+## Introduction
+
+Elliptic integrals and functions arise in many areas of mathematics. For instance, the pendulum equation
+for large osciallation angles 
+
+\ddot{\theta} + {{g}\over{L}}  \text{sin} (\theta) = 0
+
+can be written in terms of one of Jacobi's elliptic functions (for details of the mathematics see [Mathematics of the Pendulum](http://jgxsoft.com/examples/pendulum.html)).
+
+This article is intended as a quick reference to those who wish to incorporate elliptic integrals and functions into a Python script.
+
 ## Elliptic Integral of the First Kind
 
 The incomplete elliptic integral of the first kind is defined:
@@ -16,7 +27,7 @@ The incomplete elliptic integral of the second kind is defined:
 
 $$ E(k,x) = \int_0^x {{\sqrt{1-k^2 \text{sin}^2\phi} } \ {d\phi}} $$
 
-The complete elliptic integral of the seecond kind is defined:
+The complete elliptic integral of the second kind is defined:
 
 $$ E(k) = \int_0^{{\pi}\over{2}} {{\sqrt{1-k^2 \text{sin}^2\phi}} \ {d\phi}} $$ 
 
