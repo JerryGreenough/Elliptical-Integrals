@@ -3,7 +3,7 @@
 ## Jacobi's Elliptical Functions
 
 
-Jacobi's elliptical functions are defined (for a parameter $k, \hspace{1cm} 0 \leq k < 1$)as follows:
+Jacobi's elliptical functions are defined (for a parameter $k, \emspace 0 \leq k < 1$)as follows:
 
 1) <b>Amplitude</b>
 
@@ -43,3 +43,5 @@ cnxk = sncndn[1]  # cn(x, k)
 dnxk = sncndn[2]  # dn(x, k)
 amxk = sncndn[3]  # am(x, k)
 ```
+
+Let's test the return value corresponding to the $\text{am}$ amplitude function.
