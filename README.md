@@ -55,12 +55,14 @@ The elliptic integrals of both the first kind and second kind can be incorporate
 <br>Note that the ```m``` parameter used by
 the ```ellipk``` and ```ellipe``` functions is equal to the square of the $k$ parameter that is used in the mathematical literature. <br>
 
-Here is an example:- given an angle $\theta$ and a parameter $k = 0.5$ calculate $\alpha$ (which is defined in terms of the elliptic integrals of the first kind):
+Here is an example:- given an angle $\theta$ and a parameter $k$ calculate $\alpha$ (which is defined in terms of the elliptic integrals of the first kind):
 $$ \alpha \ =  \ F(k) - F(k,\theta) $$
 and $\delta$ (which is defined in terms of the elliptic integrals of the second kind)
 $$ \delta \  =  \ 1 - {{2}\over{\alpha}}(E(k) - E(k,\theta)) $$
 
 ```
+# Assume that k and theta are defined previously.
+
 from scipy.special import ellipk as F         # complete elliptical integral of the first kind
 from scipy.special import ellipkinc as Finc   # incomplete elliptical integral of the first kind
 from scipy.special import ellipe as E         # complete elliptical integral of the second kind
