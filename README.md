@@ -46,9 +46,13 @@ $$ E(k) = \int_0^{{\pi}\over{2}} {{\sqrt{1-k^2 \text{sin}^2\phi}} \ {d\phi}} $$
 
 ## Python Implementation
 
-The elliptic integrals of both the first kind and second kind can be incorporated into a Python script with the help of the ```scipy``` library - for details of the implementation for the elliptic integral of the first kind see
-[scipy/special/ellipk](https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.ellipk.html) and for details of the elliptic integral of the second kind see
-[scipy/special/ellipe](https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.ellipe.html). Note that the ```m``` parameter used by
+The elliptic integrals of both the first kind and second kind can be incorporated into a Python script with the help of the ```scipy``` library.
+
+<br>For a descripton of the ```scipy``` functionality for the elliptic integral of the first kind see
+[scipy/special/ellipk](https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.ellipk.html).
+<br>For details of the elliptic integral of the second kind see
+[scipy/special/ellipe](https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.ellipe.html). 
+<br>Note that the ```m``` parameter used by
 the ```ellipk``` and ```ellipe``` functions is equal to the square of the $k$ parameter that is used in the mathematical literature. <br>
 
 Here is an example:- given an angle $\theta$ and a parameter $k = 0.5$ calculate $\alpha$ (which is defined in terms of the elliptic integrals of the first kind):
