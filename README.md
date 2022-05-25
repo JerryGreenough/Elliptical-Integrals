@@ -3,9 +3,9 @@
 ## Introduction
 
 Elliptic integrals and functions arise in many areas of mathematics. For instance, the pendulum equation
-for large osciallation angles 
+for large osciallation angles $\theta$.
 
-\ddot{\theta} + {{g}\over{L}}  \text{sin} (\theta) = 0
+$$ \ddot{\theta} + {{g}\over{L}}  \text{sin} (\theta) = 0 $$
 
 can be written in terms of one of Jacobi's elliptic functions (for details of the mathematics see [Mathematics of the Pendulum](http://jgxsoft.com/examples/pendulum.html)).
 
