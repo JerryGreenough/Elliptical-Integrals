@@ -3,7 +3,7 @@
 ## Jacobi's Elliptical Functions
 
 
-Jacobi's elliptical functions are defined (for a parameter $k \quad 0 \leq k < 1$ )as follows:
+Jacobi's elliptical functions are defined (for a parameter $k, 0 \leq k < 1$)as follows:
 
 1) <b>Amplitude</b>
 
@@ -21,4 +21,19 @@ $$ \text{cn} (x, k) = \sqrt{   1 - \text{sn}^2(x, k)} = \text{cos}[\ \text{am}(x
 
 $$ \text{dn} (x, k) = \sqrt{1 - k^2 \ \text{sn}^2(x, k)}   $$
 
+The elliptical functions are easily incorporated into a Python script with the help of the ```scipy``` library.
 
+```
+from scipy.special import ellipj as elliptical_fns
+
+k = 0.5
+x = 0.25
+
+m = k**2
+
+sncndn = elliptical_fns(x, m)
+snxk = sncndn[0]  # sn(x, k)
+cnxk = sncndn[1]  # cn(x, k)
+dnxk = sncndn[2]  # dn(x, k)
+amxk = sncndn[2]  # am(x, k)
+```
