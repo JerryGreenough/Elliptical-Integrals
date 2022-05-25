@@ -2,13 +2,13 @@
 
 ## Introduction
 
-Elliptic integrals and functions arise in many areas of mathematics. For instance, the arc length of the ellipse:
+Elliptic integrals and functions arise in many areas of mathematics. For instance, the following ellipse:
 
-$$ {{x}\over{z}^2  + {{y}\over{b}}^2 = 1$$
+$$ {{x}\over{a}}^2  + {{y}\over{b}}^2 = 1  $$
 
-is given by:
+has a circumferential length given by:
 
-$$ L = $$
+$$ L = a\int_0^2\pi {{\sqrt{1-k^2 \text{sin}^2\phi} } \ {d\phi} \quad k^2 = {{a^2-b^2}\over{a^2}}  \quad b^2<a^2  $$
 
 which is an incomplete elliptical integral of the second kind (see later definition).
 
