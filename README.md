@@ -2,12 +2,24 @@
 
 ## Introduction
 
-Elliptic integrals and functions arise in many areas of mathematics. For instance, the pendulum equation
-for large osciallation angles $\theta$.
+Elliptic integrals and functions arise in many areas of mathematics. For instance, the arc length of the ellipse:
+
+$$ {{x}\over{z}^2  + {{y}\over{b}}^2 = 1$$
+
+is given by:
+
+$$ L = $$
+
+which is an incomplete elliptical integral of the second kind (see later definition).
+
+Another example is that of the pendulum equation, which 
+for large osciallation angles $\theta$ is a differential equation given by:
 
 $$ \ddot{\theta} + {{g}\over{L}}  \text{sin} (\theta) = 0 $$
 
-can be written in terms of one of Jacobi's elliptic functions (for details of the mathematics see [Mathematics of the Pendulum](http://jgxsoft.com/examples/pendulum.html)).
+The solution to this equation can be written in terms of one of Jacobi's elliptic functions (for details of the mathematics see [Mathematics of the Pendulum](http://jgxsoft.com/examples/pendulum.html)). The period of oscillation can be expressed in terms of the complete elliptic integral of the first kind.
+
+Finally, elliptic integrals of both the first and second kind are used in the determination of the large-deflection lateral force/deflection profile of the free end of a cantilever beam (for details see Bisshopp & Drucker: "Large Deflection of Cantilever Beams", Quarterly of Applied Mathematics, 3 272-275 (1945)).
 
 This article is intended as a quick reference to those who wish to incorporate elliptic integrals and functions into a Python script.
 
