@@ -4,11 +4,11 @@
 
 The incomplete elliptic integral of the first kind is defined:
 
-$ F(k,x) = \int_0^x {{d\phi}\over{\sqrt{1-k^2 \text{sin}^2\phi}}} $$ 
+$$ F(k,x) = \int_0^x {{d\phi}\over{\sqrt{1-k^2 \text{sin}^2\phi}}} $$ 
 
 The complete elliptic integral of the first kind is defined:
 
-$ F(k) = \int_0^{{\pi}\over{2}} {{d\phi}\over{\sqrt{1-k^2 \text{sin}^2\phi}}} $$ 
+$$ F(k) = \int_0^{{\pi}\over{2}} {{d\phi}\over{\sqrt{1-k^2 \text{sin}^2\phi}}} $$ 
 
 ## Elliptic Integral of the Second Kind
 
