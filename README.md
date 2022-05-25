@@ -24,7 +24,7 @@ Finally, elliptic integrals of both the first and second kind are used in the de
 This article is intended as a quick reference to those who wish to incorporate elliptic integrals and functions into a Python script.
 
 <p align="center">
-    <img src=".\sn.png" width="782" height="444"> 
+    <img src="sn.png" width="782" height="444"> 
 </p>
 
 <p align="center">
