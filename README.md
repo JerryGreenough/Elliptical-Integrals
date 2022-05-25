@@ -14,7 +14,11 @@ $$ F(k) = \int_0^{{\pi}\over{2}} {{d\phi}\over{\sqrt{1-k^2 \text{sin}^2\phi}}} $
 
 The incomplete elliptic integral of the second kind is defined:
 
+$$ E(k,x) = \int_0^x {{\sqrt{1-k^2 \text{sin}^2\phi} {d\phi}} $$
+
 The complete elliptic integral of the seecond kind is defined:
+
+$$ E(k) = \int_0^{{\pi}\over{2}} {{\sqrt{1-k^2 \text{sin}^2\phi}} {d\phi}} $$ 
 
 
 ## Jacobi's Elliptic Functions
