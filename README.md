@@ -7,7 +7,7 @@ Jacobi's elliptical functions are defined as follows:
 
 1) Amplitude
 
-$$ \test{am}(x,k) = F^{-1}(k,x)
+$$ \text{am}(x,k) = F^{-1}(k,x)  $$
 
 2) Sinus Amplitudinis
 
