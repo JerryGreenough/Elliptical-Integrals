@@ -3,7 +3,7 @@
 ## Jacobi's Elliptic Functions
 
 
-Jacobi's elliptic functions are defined (for a parameter $k,  0 \leq k < 1$)as follows:
+Jacobi's elliptic functions are defined (for a parameter $k, \, 0 \leq k < 1$)as follows:
 
 1) <b>Amplitude</b>
 
