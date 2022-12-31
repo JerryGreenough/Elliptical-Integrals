@@ -64,8 +64,11 @@ The elliptic integrals of both the first kind and second kind can be incorporate
 the ```ellipk``` and ```ellipe``` functions is equal to the square of the $k$ parameter that is used in the mathematical literature. <br>
 
 Here is an example:- given an angle $\theta$ and a parameter $k$ calculate $\alpha$ (which is defined in terms of the elliptic integrals of the first kind):
+
 $$ \alpha \ =  \ F(k) - F(k,\theta) $$
-and $\delta$ (which is defined in terms of the elliptic integrals of the second kind)
+
+and $\delta$ (which is defined in terms of the elliptic integrals of the second kind):
+
 $$ \delta \  =  \ 1 - {{2}\over{\alpha}}(E(k) - E(k,\theta)) $$
 
 ```
